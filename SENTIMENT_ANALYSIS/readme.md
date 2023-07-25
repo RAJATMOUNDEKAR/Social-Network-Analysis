@@ -8,7 +8,15 @@ Sentiment analysis is a natural language processing task that aims to determine 
 
 ## Dataset
 
-The dataset used in this project is located in the `data` directory. The `twitter_data.csv` file contains the clean text and corresponding sentiment labels. The dataset is split into training and testing sets during the model training process.
+Preprocessed amazon product review data of Gen3EcoDot scrapped entirely from 
+amazon.in
+Stemmed and Lemmatized using nltk
+sentiment labels are generated using TextBlob polarity scores
+Dataset contains features
+1) reviews
+Stemmed and Lemmatized review using nltk
+2) divisions
+Categorical label generated using polarity score
 
 ## Models
 
